@@ -9,9 +9,9 @@ const Top20List = ({songs}) => {
     return (
         <>
         <h2>Top20 List</h2>
-        <ul>
+        <ol>
             {songsList}
-        </ul>
+        </ol>
         </>
     )
 }

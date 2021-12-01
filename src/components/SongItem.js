@@ -1,6 +1,11 @@
 const SongItem = ({song}) => {
+    
     return (
-        <li>{song.title.label}</li>
+        <li>
+            <img src={song["im:image"][2].label}/>
+            <br/>
+            {song.title.label}
+        </li>
     )
 };
 

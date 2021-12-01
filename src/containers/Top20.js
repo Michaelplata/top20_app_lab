@@ -4,7 +4,6 @@ import Top20List from '../components/Top20List';
 
 const Top20 = () => {
     const [songs, setSongs] = useState([]);
-    const [selectedSong, setSelectedSong] = useState(null);
 
     useEffect(() =>{
         getSongs();
